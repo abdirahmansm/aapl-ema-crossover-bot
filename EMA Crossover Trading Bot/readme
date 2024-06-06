@@ -1,0 +1,49 @@
+# AAPL EMA Crossover Trading Bot
+
+This trading bot uses Exponential Moving Averages (EMAs) to identify buy and sell signals for Apple Inc. (AAPL) stock. The bot downloads historical stock data, calculates short and long period EMAs, and identifies bullish and bearish crossover points to generate trading signals.
+
+## Table of Contents
+
+- [Features]
+- [Requirements]
+- [Installation]
+- [Usage]
+- 
+
+
+## Features
+
+- Downloads historical stock data from Yahoo Finance.
+- Calculates short period (20 days) and long period (50 days) EMAs.
+- Identifies bullish and bearish crossover points.
+- Plots stock price along with EMAs and trading signals on a chart.
+
+## Requirements
+
+- Python 3.x
+- Jupyter Notebook
+- Required Python libraries:
+  - `yfinance`
+  - `pandas`
+  - `numpy`
+  - `matplotlib`
+
+## Installation
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/abdirahmansm
+/aapl-ema-crossover-bot.git
+   cd aapl-ema-crossover-bot
+
+   Install the Required Libraries:
+bash
+Copy code
+## pip install yfinance pandas numpy matplotlib
+
+Usage
+Launch Jupyter Notebook:
+
+bash
+Copy code
+## jupyter notebook
